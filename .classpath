@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="**/.svn/*" kind="src" path="src"/>
-	<classpathentry excluding="**/.svn/*" kind="src" path="test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="build/junit-4.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/objenesis-1.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/minlog-1.2.jar"/>
-	<classpathentry kind="lib" path="lib/reflectasm-1.09-shaded.jar"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="test" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/com/esotericsoftware/reflectasm/reflectasm/1.09/reflectasm-1.09-shaded.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.8.2/junit-4.8.2.jar"/>
 </classpath>

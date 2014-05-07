@@ -60,7 +60,7 @@ To use the official release of Kryo, please use the following snippet in your po
 
 ```xml
     <dependency>
-        <groupId>com.esotericsoftware.kryo</groupId>
+        <groupId>com.esotericsoftware.kyro</groupId>
         <artifactId>kryo</artifactId>
         <version>2.24.0</version>
     </dependency>
@@ -76,7 +76,7 @@ If you want to test the latest snapshot of Kryo, please use the following snippe
     </repository>
     
     <dependency>
-       <groupId>com.esotericsoftware.kryo</groupId>
+       <groupId>com.esotericsoftware.kyro</groupId>
        <artifactId>kryo</artifactId>
         <version>2.24.1-SNAPSHOT</version>
     </dependency>
